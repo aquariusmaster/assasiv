@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>All Links Togethere</title>
+		<meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;700&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/41a8dd7285.js" crossorigin="anonymous"></script>
+
+        <!-- <link rel="stylesheet" href="../assets/style.css"> -->
+        
+        <style>
+            * {
+                box-sizing: border-box;
+                margin:0;
+                font-family: 'Cormorant Garamond', serif;
+                font-size: 18px;
+            }
+
+            .header--logo {
+                background: #be4b3c;
+                box-shadow: #f6da78 0 5px 5px 2px;
+                
+
+            }
+
+            .header--logo div {
+                display: inline-block;
+                padding: 10px 40px 10px 70px;
+                vertical-align: middle;
+            }
+
+            .header--nav {
+                display:inline-block;
+                padding: 10px 0;
+                text-align: right;
+                width: calc(100% - 200px);
+                vertical-align: middle;
+               
+                
+            }
+
+            .header--nav__items {
+                margin:0;
+                padding:0;
+                list-style: none;
+                
+            }
+
+            .header--nav__item {
+                display:inline-block;
+                text-transform: uppercase;
+                font-size: 14px;
+                margin: 0 6px;
+                
+            }
+
+            .header--nav__item > a {
+                color:beige;
+                text-decoration: none;
+            }
+
+
+            .header--nav__item > a:hover {
+                color:#f6da78;
+                
+            }
+
+            .blocks {
+                text-align:center;
+                margin: 80px auto;
+                width: 1200px;
+            }
+
+            .blocks__headline {
+                font-family: 'Dancing Script', cursive;
+                font-size: 32px;
+                
+            }
+
+            .block {
+                display:inline-block;
+                background: #eee;
+                border: 2px solid #ab384e;
+                width: 30%;
+                padding: 30px 0;
+                margin: 40px 0;
+                vertical-align: middle;
+                text-align: center;
+                box-shadow: rgba(173, 56, 78, 0.5) 0 0 1px 2px;
+            }
+
+            .block li, ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+
+            .block:nth-child(3) {
+                background: #ab384e;
+                color: #ffffff;
+                box-shadow: rgba(246, 218, 120, 0.5) 0 0 10px 3px;
+                margin: 0 5px;
+            }
+
+            .block:hover {
+                background:  #ab384e;
+                color:#ffffff;
+                box-shadow: rgba(173, 56, 78, 0.5) 0 0 2px 5px;
+            }
+
+            .block:nth-child(3):hover {
+                box-shadow:#ab384e 0 0 10px 3px;
+                
+            }
+
+            .block__headline {
+                font-weight: bold;
+                font-size: 28px;
+                margin-bottom: 20px;
+            }
+
+            .block p {
+                font-family: 'Dancing Script', cursive;
+                font-size: 14px;
+                margin: 10px 0;
+                color: #302f2c;
+            }
+
+            .block:hover > p {
+                color: #f6da78;
+            }
+
+            .button {
+                border: 1px solid #ab384e;
+                border-radius: 8px;
+                width: 130px;
+                padding: 4px;
+                margin: 20px auto;
+                text-transform: uppercase;
+                font-weight: bold;
+                box-shadow: #333 0 2px 4px 1px;
+            }
+
+            .button__light {
+                background: #f6da78;
+            }
+
+            .button:hover {
+                width: 150px;
+                font-size: 20px;
+            }
+
+            .button__dark {
+                background: #eee;
+                color: #ab384e;
+            }
+
+            .block:hover .button__light {
+                background: #eee;
+                color: #ab384e;
+            }
+            .block:hover .button__dark {
+                background: #f6da78;
+                color: #302f2c;
+            }
+
+            .features {
+                background: #f6da78;
+                padding: 30px;
+                text-align: center;
+                box-shadow: #f6da78 0 0 5px 5px;
+            }
+
+            #features__headline {
+                color:#352c97;
+                font-size: 32px;
+                font-family: 'Dancing Script', cursive;
+                margin: 10px 0 20px;
+            }
+
+            .feature {
+                display:inline-block;
+                margin: 10px;
+                width: 30%;
+            }
+
+            .feature__img {
+                display:inline-block;
+                width: 110px;
+                height: 110px;
+                background: #a1b3fb;
+                border: 1px solid #eee;
+                border-radius: 50%;
+                padding: 20px 0;
+            }
+
+            .feature p {
+                color:#352c97;
+                margin-top:10px;
+                font-size: 20px;;
+            }
+
+            .features__list {
+                width: 1400px;
+                margin: auto;
+            }
+
+
+
+
+
+
+
+            
+            </style>
+   </head>
+   <body>
+    <header class="header--logo">
+        <div>
+            <img src="../assets/tinder.png" alt="logo">
+        </div>
+        <nav class="header--nav">
+            <ul class="header--nav__items">
+                <li class="header--nav__item"><a href="/main/index.html">Main</a></li>
+                <li class="header--nav__item"><a href="../about/index.html">About</a></li>
+                <li class="header--nav__item"><a href="../bg/index.html">Background</a></li>
+                <li class="header--nav__item"><a href="../blocks/index.html">Blocks</a></li>
+                <li class="header--nav__item"><a href="../blocks/index.html">Blocks</a></li>
+                <li class="header--nav__item"><a href="../img/index.html">Images</a></li>
+                <li class="header--nav__item"><a href="../links/index.html">Links</a></li>
+                <li class="header--nav__item"><a href="../position/index.html">Position</a></li>
+                <li class="header--nav__item"><a href="../tables/index.html">Tables</a></li>
+                <li class="header--nav__item"><a href="../test/index.html">Flex Test</a></li>
+            </uL>
+        </nav>
+        <img src="../assets/head-img.jpeg" alt="header slider">
+    </header>
+
+
+    <section class="blocks">
+        <div>
+            <h2 class="blocks__headline">What You Will Learn</h2>
+            <p>Here are some ways you need to learn to hit the next round!</p>
+        </div>
+
+        <div class="block">
+            <h3 class="block__headline">HTML</h3>
+            <p><i class="far fa-clock"></i> 20h</p>
+            <div class="button button__light">Get Started</div>
+            <ul>
+                <li>HTML Semantic Elements</li>
+                <li>HTML forms & validation</li>
+                <li>HTML accessibility</li>
+            </ul>
+        </div>
+
+        <div class="block">
+            <h3 class="block__headline">CSS</h3>
+            <p><i class="far fa-clock"></i> 160h</p>
+            <div class="button button__dark">Get Started</div>
+            <ul>
+                <li>Layouts</li>
+                <li>Media Quary</li>
+                <li>Animation</li>
+                <li>CSS architecture</li>
+                <li>CSS preprocessor</li>
+            </ul>
+        </div>
+
+        <div class="block">
+            <h3 class="block__headline">JavaScript</h3>
+            <p><i class="far fa-clock"></i> 160h</p>
+            <div class="button button__light">Get Started</div>
+            <ul>
+                <li>Syntax of JavaScript</li>
+                <li>Conditionals</li>
+                <li>Inheritance</li>
+            </ul>
+        </div>
+    </section>
+
+
+        <section class="features">
+            <h2 id="features__headline">Why Should You Learn That</h2>
+            <div class="features__list">
+                <div class="feature">
+                    <div class="feature__img"><img src="../assets/feature-1.png" alt="can do it"></div>
+                    <p>You Like It</p>
+                </div>
+
+                <div class="feature">
+                    <div class="feature__img"><img src="../assets/feature-2.png" alt="can do it"></div>
+                    
+                    <p>$4000 Montly</p>
+                </div>
+                <div class="feature">
+                    <div class="feature__img">
+                        <img src="../assets/feature-3.png" alt="can do it">
+                    </div>
+                    <p>Self-Realization</p>
+                </div>
+            </div>
+
+    
+        </section>
+
+
+
+
+    
+    
+
+    </body>
+    
+    
+</html>
